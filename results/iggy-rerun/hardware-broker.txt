@@ -1,0 +1,9 @@
+CPU(s):                                  2
+Model name:                              Intel Xeon Processor (Skylake, IBRS)
+Mem:            3916        1079         886           0        2207        2836
+rabbitmq 738cf3ed40b6
+redpandadata/redpanda 81b12c4f6d91
+nats ebabea7c6186
+apache/iggy 4574944d61b9
+apache/kafka 47dccc76b327
+apache/iggy@sha256:176125a0580f526b0fee8b98ccf4ed5f77e243066183243d87282abce4851bf3

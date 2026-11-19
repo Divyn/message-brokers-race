@@ -1,0 +1,5 @@
+CPU(s):                                  2
+Model name:                              Intel Xeon Processor (Skylake, IBRS)
+Mem:            3916         341        3625           0         140        3574
+Debian GNU/Linux 13 (trixie)
+6.12.117+deb13-amd64

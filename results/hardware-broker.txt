@@ -1,0 +1,7 @@
+box: mb-broker, plan: vc2-2c-4gb, region sea
+CPU(s):                                  2
+Model name:                              Intel Xeon Processor (Skylake, IBRS)
+Mem:            3916         503        1594           0        2080        3412
+Debian GNU/Linux 13 (trixie)
+Python 3.13.5
+Docker version 26.1.5+dfsg1, build a72d7cd

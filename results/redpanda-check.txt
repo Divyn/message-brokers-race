@@ -1,0 +1,10 @@
+Redpanda p99 check, 2026-11-19, fresh pair exp-mb-broker / exp-mb-client (vc2-2c-4gb, Seattle), same rig and client.
+Not ranked. The ranked Redpanda result stays on its quickstart settings (--mode dev-container --smp 1).
+
+Quickstart defaults: raft_replica_max_flush_delay_ms = 100, write_caching_default = "true"
+1000 msg/s for 10 s, 10000 of 10000 confirmed:
+  p10 1.8 ms, p50 4.1 ms, p90 6.5 ms, p95 6.6 ms, p99 105.0 ms
+  share of messages over 90 ms: 1.15%
+After `rpk cluster config set raft_replica_max_flush_delay_ms 10`, same load:
+  p50 4.0 ms, p99 6.6 ms
+Finding: about 1 message in 90 waits for Redpanda's 100 ms flush timer, which sets its p99 at ~105 ms under quickstart settings.

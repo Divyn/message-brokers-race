@@ -1,0 +1,10 @@
+aio-pika==10.2.3
+aiormq==7.2.5
+apache-iggy==0.10.0
+confluent-kafka==2.16.2
+idna==3.20
+multidict==7.2.1
+nats-py==2.17.0
+pamqp==5.0.0
+propcache==0.5.4
+yarl==1.25.1

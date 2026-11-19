@@ -1,0 +1,44 @@
+# rep 1 kafka 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 67.62479099984375}
+# rep 1 kafka 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 8.98833599990212}
+# rep 1 kafka 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 7.405276000099548}
+# rep 1 kafka 10000/s -> PASS {'confirmed': 100000, 'target': 100000, 'p99_ms': 9.84938300007343}
+# rep 1 kafka 20000/s -> PASS {'confirmed': 200000, 'target': 200000, 'p99_ms': 8.805429999938497}
+# rep 1 kafka 50000/s -> PASS {'confirmed': 500000, 'target': 500000, 'p99_ms': 8.706441999947856}
+# rep 1 redpanda 1000/s -> P99_OVER_100MS {'confirmed': 10000, 'target': 10000, 'p99_ms': 105.03271000015957}
+# rep 1 nats 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 1.203874999873733}
+# rep 1 nats 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 11.980235999999422}
+# rep 1 nats 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 2.5528240000767255}
+# rep 1 nats 10000/s -> P99_OVER_100MS {'confirmed': 100000, 'target': 100000, 'p99_ms': 113.24178499990012}
+# rep 1 rabbitmq 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 2.9006940001181647}
+# rep 1 rabbitmq 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 6.270717000006698}
+# rep 1 rabbitmq 5000/s -> UNDER_95_PERCENT_CONFIRMED {'confirmed': 37523, 'target': 50000, 'p99_ms': 7554.825077999794}
+# iggy failed to start
+# rep 2 redpanda 1000/s -> P99_OVER_100MS {'confirmed': 10000, 'target': 10000, 'p99_ms': 107.08572599992294}
+# rep 2 nats 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 1.291910999952961}
+# rep 2 nats 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 1.7416460000276857}
+# rep 2 nats 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 2.7000530001259904}
+# rep 2 nats 10000/s -> P99_OVER_100MS {'confirmed': 100000, 'target': 100000, 'p99_ms': 699.479694000047}
+# rep 2 rabbitmq 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 3.5769010000876733}
+# rep 2 rabbitmq 2000/s -> P99_OVER_100MS {'confirmed': 20000, 'target': 20000, 'p99_ms': 100.88048099987645}
+# iggy failed to start
+# rep 2 kafka 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 82.42550299996765}
+# rep 2 kafka 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 10.034081999947375}
+# rep 2 kafka 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 7.415192000053139}
+# rep 2 kafka 10000/s -> PASS {'confirmed': 100000, 'target': 100000, 'p99_ms': 9.391841999786266}
+# rep 2 kafka 20000/s -> PASS {'confirmed': 200000, 'target': 200000, 'p99_ms': 7.513710000011997}
+# rep 2 kafka 50000/s -> PASS {'confirmed': 500000, 'target': 500000, 'p99_ms': 7.689840000011827}
+# rep 3 nats 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 1.3111250000292785}
+# rep 3 nats 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 1.461248999930831}
+# rep 3 nats 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 2.604585999961273}
+# rep 3 nats 10000/s -> P99_OVER_100MS {'confirmed': 100000, 'target': 100000, 'p99_ms': 225.09719399999994}
+# rep 3 rabbitmq 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 3.051112000093781}
+# rep 3 rabbitmq 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 7.2240380000039295}
+# rep 3 rabbitmq 5000/s -> UNDER_95_PERCENT_CONFIRMED {'confirmed': 36031, 'target': 50000, 'p99_ms': 7942.29055400001}
+# iggy failed to start
+# rep 3 kafka 1000/s -> PASS {'confirmed': 10000, 'target': 10000, 'p99_ms': 71.10291699996196}
+# rep 3 kafka 2000/s -> PASS {'confirmed': 20000, 'target': 20000, 'p99_ms': 8.94636300017737}
+# rep 3 kafka 5000/s -> PASS {'confirmed': 50000, 'target': 50000, 'p99_ms': 7.454392999989068}
+# rep 3 kafka 10000/s -> PASS {'confirmed': 100000, 'target': 100000, 'p99_ms': 9.924909999881493}
+# rep 3 kafka 20000/s -> PASS {'confirmed': 200000, 'target': 200000, 'p99_ms': 7.528943000124855}
+# rep 3 kafka 50000/s -> PASS {'confirmed': 500000, 'target': 500000, 'p99_ms': 7.641656000032526}
+# rep 3 redpanda 1000/s -> P99_OVER_100MS {'confirmed': 10000, 'target': 10000, 'p99_ms': 105.23861899991971}

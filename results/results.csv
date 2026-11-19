@@ -1,0 +1,7 @@
+# 2026-11-19T06:42:55Z rates=[1000, 2000, 5000, 10000, 20000, 50000] repeats=3
+broker,median_msgs_per_s,runs,stopped_by
+kafka,50000,50000 50000 50000,ALL_PASSED | ALL_PASSED | ALL_PASSED
+redpanda,0,0 0 0,P99_OVER_100MS at 1000 | P99_OVER_100MS at 1000 | P99_OVER_100MS at 1000
+nats,5000,5000 5000 5000,P99_OVER_100MS at 10000 | P99_OVER_100MS at 10000 | P99_OVER_100MS at 10000
+rabbitmq,2000,2000 1000 2000,UNDER_95_PERCENT_CONFIRMED at 5000 | P99_OVER_100MS at 2000 | UNDER_95_PERCENT_CONFIRMED at 5000
+iggy,,,FAILED_TO_START ess to the address clients dial; or bind a concrete address. Error: failed to load server config   Caused by: Provided configuration value is invalid  | FAILED_TO_START ess to the address clients dial; or bind a concrete address. Error: failed to load server config   Caused by: Provided configuration value is invalid  | FAILED_TO_START ess to the address clients dial; or bind a concrete address. Error: failed to load server config   Caused by: Provided configuration value is invalid 
